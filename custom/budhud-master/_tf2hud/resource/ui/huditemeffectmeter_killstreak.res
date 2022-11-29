@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"94"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"xpos_disabled"	"68"	[$WIN32]
-		"ypos_disabled"	"r40"	[$WIN32]
+		"xpos$_disabled_"	"68"	[$WIN32]
+		"ypos$_disabled_"	"r40"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,14 +25,14 @@
 		"wide"			"76"
 		"tall"			"44"
 		"visible"		"1"
-		"visible_disabled"	"0"
+		"visible$_disabled_"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
+		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
+		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -63,11 +63,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_disabled"			"0"
-		"xpos_disabled"			"0"
+		"ypos$_disabled_"			"0"
+		"xpos$_disabled_"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_disabled"			"50"
+		"wide$_disabled_"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -83,7 +83,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos_disabled"			"18"
+		"ypos$_disabled_"			"18"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
@@ -97,6 +97,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-		"font_disabled"			"HudFontSmall"
+		"font$_disabled_"			"HudFontSmall"
 	}
 }

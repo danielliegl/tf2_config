@@ -176,47 +176,47 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		disabled_wider
+		$_disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		disabled_taller
+		$_disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		disabled_halloween_0
+		$_disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
-		disabled_halloween_1
+		$_disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
-		disabled_halloween_2
+		$_disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
-		disabled_halloween_3
+		$_disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
-		disabled_halloween_4
+		$_disabled_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
-		disabled_halloween_5
+		$_disabled_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		disabled_fullmoon
+		$_disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		disabled_christmas
+		$_disabled_christmas
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}		
@@ -1707,102 +1707,107 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2020 Cosmetic Key" 
+						"item"		"Halloween 2022 Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2020 Cosmetic Case"
+						"item"		"Halloween 2022 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Winter 2020 War Paint Key"
+						"item"		"Scream Fortress 2022 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Winter 2020 War Paint Case"
+						"item"		"Scream Fortress 2022 War Paint Case"
 						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Pooped Deck"
+						"item"		"Taunt: Texas Twirl 'Em"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Time Out Therapy"
+						"item"		"Taunt: The Travel Agent"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Rocket Jockey"
+						"item"		"Taunt: Drunk Mann's Cannon"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: The Boston Boarder"
+						"item"		"Taunt: Shanty Shipmate"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: Scorcher's Solo"
+						"item"		"Taunt: The Scaredy-cat!"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: Texas Truckin"
+						"item"		"Map Token Soul Mill"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Taunt: Spin-to-Win"
+						"item"		"Map Token Helltrain"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Taunt: The Fist Bump"
+						"item"		"Map Token Bonesaw"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Pier"
+						"item"		"Map Token Crasher"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Pier (Community)"
+						"item"		"Map Token Ghoulpit"
 						"show_market"	"0"
-					}					
+					}
 					"14"
 					{
-						"item"		"Map Token SnowVille"
+						"item"		"Map Token Spookeyridge"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: SnowVille (Community)"
+						"item"		"Strange Filter: Soul Mill (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Snowfall"
+						"item"		"Strange Filter: Helltrain (Community)"
 						"show_market"	"0"
 					}
 					"17"
 					{
-						"item"		"Strange Filter: Snowfall (Community)"
+						"item"		"Strange Filter: Bonesaw (Community)"
 						"show_market"	"0"
 					}
 					"18"
 					{
-						"item"		"Map Token Wutville"
+						"item"		"Strange Filter: Crasher (Community)"
 						"show_market"	"0"
 					}
 					"19"
 					{
-						"item"		"Strange Filter: Wutville (Community)"
+						"item"		"Strange Filter: Ghoulpit (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Spookeyridge (Community)"
 						"show_market"	"0"
 					}
 				}

@@ -1,8 +1,14 @@
-	#base	"bh_confirmbase.res"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Apply Costume Transmogrifier UI
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    #base   "bh_confirmbase.res"
 
 "Resource/UI/ConfirmTransmogrifyApplicationDialog.res"
 {
-	"ConfirmTransmogrifyApplicationDialog"
-	{
-	}
+    "ConfirmTransmogrifyApplicationDialog"
+    {
+        "bgcolor_override"                                          "bh_Theme_BG30"
+        "border"                                                    "bh_b_NESW"
+    }
 }

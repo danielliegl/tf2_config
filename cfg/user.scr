@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Feb  8 19:27:43 AM
+// File generated:  Sun Nov 13 16:00:58 AM
 //
 //
 // Cvar	-	Setting
@@ -52,7 +52,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_EnableVoiceChat"
 		"#Tooltip_EnableVoiceChat"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_enable_text_chat"
@@ -60,7 +60,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_EnableTextChat"
 		"#Tooltip_EnableTextChat"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"chat_filter_settings"
@@ -262,7 +262,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_sniperbell"
 		"#Tooltip_sniperbell"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category3"
@@ -377,7 +377,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_EnableGlowsAfterRespawn"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hud_playerclass_use_playermodel"
@@ -393,7 +393,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_viewmodelfov_option"
 		"#Tooltip_viewmodelfov_option"
 		{ SLIDER 54 70 }
-		{ "54" }
+		{ "70" }
 	}
 
 	"tf_spectator_target_location"
@@ -480,7 +480,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_TargetID_Alpha"
 		"#ToolTip_TargetID_Alpha"
 		{ SLIDER 0 255 }
-		{ "0" }
+		{ "255" }
 	}
 
 	"tf_contract_progress_show"
@@ -626,7 +626,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "1" }
+		{ "9" }
 	}
 
 	"category7"
@@ -675,10 +675,18 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
-	"cl_playerspraydisable"
+	"cl_spraydisable"
 	{
 		"#GameUI_DisableSprays"
 		"#Tooltip_DisableSprays"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_delete_temp_files"
+	{
+		"#TF_delete_temp_files"
+		"#Tooltip_delete_temp_files"
 		{ BOOL }
 		{ "1" }
 	}
@@ -695,7 +703,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_steamscreenshots"

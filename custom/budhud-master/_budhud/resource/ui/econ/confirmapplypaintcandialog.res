@@ -1,8 +1,14 @@
-	#base	"bh_confirmbase.res"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Apply Paint UI
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    #base   "bh_confirmbase.res"
 
 "Resource/UI/ConfirmApplyPaintCanDialog.res"
 {
-	"ConfirmApplyPaintCanDialog"
-	{
-	}
+    "ConfirmApplyPaintCanDialog"
+    {
+        "bgcolor_override"                                          "bh_Theme_BG30"
+        "border"                                                    "bh_b_NESW"
+    }
 }

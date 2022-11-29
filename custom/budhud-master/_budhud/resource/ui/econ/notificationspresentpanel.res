@@ -1,23 +1,24 @@
 "Resource/UI/NotificationsPresentPanel.res"
 {
-	"NotificationsPresentPanel"
-	{
-		"xpos"														"r70"
-		"ypos"														"c-214"
-		"wide"														"70"
-		"tall"														"10"
-		"bgcolor_override"											"bh_blank"
-		"border"													"NoBorder"
-	}
-	
-	"TextLabel"
-	{
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"labeltext"													"#bh_PendingAlerts"
-		"font"														"bh_Font10"
-		"fgcolor_override"											"bh_Theme_AccentPrimary"
-	}
+    "NotificationsPresentPanel"
+    {
+        "xpos"                                                      "r204"
+        "ypos"                                                      "27"
+        "wide"                                                      "200"
+        "tall"                                                      "20"
+        "bgcolor_override"                                          "bh_blank"
+        "border"                                                    "NoBorder"
+    }
+
+    "TextLabel"
+    {
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "labeltext"                                                 "#bh_PendingAlerts"
+        "font"                                                      "bh_Font14"
+        "fgcolor_override"                                          "bh_Theme_TextAccent"
+        "textalignment"                                             "east"
+    }
 }

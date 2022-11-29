@@ -8,9 +8,9 @@
 		"x_offset"		"0"
 		"xpos"			"10"	[$WIN32]
 		"ypos"			"r107"	[$WIN32]
-		"xpos_disabled"	"r52"	[$WIN32]
-		"ypos_disabled"	"r45"	[$WIN32]
-		"x_offset_disabled"		"0"	[$WIN32]
+		"xpos$_disabled_"	"r52"	[$WIN32]
+		"ypos$_disabled_"	"r45"	[$WIN32]
+		"x_offset$_disabled_"		"0"	[$WIN32]
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -27,14 +27,14 @@
 		"wide"			"150"
 		"tall"			"75"
 		"visible"		"1"
-		"visible_disabled"	"0"
+		"visible$_disabled_"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
+		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
+		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -49,11 +49,11 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_disabled"		"1"
-		"ypos_disabled"			"24"
-		"xpos_disabled"			"0"
-		"wide_disabled"			"50"
-		"textAlignment_disabled"			"north-west"
+		"visible$_disabled_"		"1"
+		"ypos$_disabled_"			"24"
+		"xpos$_disabled_"			"0"
+		"wide$_disabled_"			"50"
+		"textAlignment$_disabled_"			"north-west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KART"
@@ -61,7 +61,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmall"
-		"font_disabled"					"TFFontSmall"
+		"font$_disabled_"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -71,9 +71,9 @@
 		"font"					"Default"
 		"xpos"					"20"
 		"ypos"					"68"
-		"ypos_disabled"			"20"
-		"xpos_disabled"			"0"
-		"wide_disabled"			"50"
+		"ypos$_disabled_"			"20"
+		"xpos$_disabled_"			"0"
+		"wide$_disabled_"			"50"
 		"zpos"					"2"
 		"wide"					"47"
 		"tall"					"5"				
@@ -95,20 +95,20 @@
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"	
-		"ypos_disabled"			"5"
-		"xpos_disabled"			"0"
-		"wide_disabled"			"50"
-		"tall_disabled"			"15"	
+		"ypos$_disabled_"			"5"
+		"xpos$_disabled_"			"0"
+		"wide$_disabled_"			"50"
+		"tall$_disabled_"			"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"textAlignment_disabled"			"west"
+		"textAlignment$_disabled_"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
-		"font_disabled"					"TFFontSmall"
+		"font$_disabled_"					"TFFontSmall"
 	}
 }

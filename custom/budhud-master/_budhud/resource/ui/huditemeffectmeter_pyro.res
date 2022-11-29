@@ -1,16 +1,16 @@
-	#base	"huditemeffectmeter_base_meters_pos2.res"
-	#base	"huditemeffectmeter_base_meters.res"
+    #base   "huditemeffectmeter_base_meters_pos2.res"
+    #base   "huditemeffectmeter_base_meters.res"
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Elements / Weapons
-	// ============================================================================================== //
-	// Pyro - Phlogistinator
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_Pyro.res"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Affected Elements / Weapons
+    // ============================================================================================== //
+    // Pyro - Phlogistinator
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"Resource/UI/huditemeffectmeter_pyro.res"
 {
-	"== HudItemEffectMeter_Pyro =="
-	{
-		"ControlName"												"ImagePanel"
-	}
+    "== huditemeffectmeter_pyro =="
+    {
+        "ControlName"                                               "ImagePanel"
+    }
 }
